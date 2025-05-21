@@ -126,7 +126,17 @@ a:hover
   display: table;
   clear: both;
 }
-
+  
+@media screen and (max-width: 600px) 
+{
+  .column,
+  .left,
+  .right
+{
+  height: 100%;
+  width: 100%;
+}
+  
 /* SLIDER */
 .slider-section 
 {
@@ -194,17 +204,7 @@ a:hover
   from {transform:scale(0)} 
   to {transform:scale(1)}
 }
-  
-@media screen and (max-width: 600px) 
-{
-  .column,
-  .left,
-  .right
-{
-  height: 100%;
-  width: 100%;
-}
-  
+
 </style>   
 </head>
   
